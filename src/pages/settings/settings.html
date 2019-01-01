@@ -15,4 +15,24 @@
 
 <ion-content padding>
 
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <ion-list>
+            <form (ngSubmit)="saveForm()">
+              <ion-item>
+                <ion-label>City</ion-label>
+                <ion-input [(ngModel)]="city" name="city" type="text"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label>Country Code</ion-label>
+                <ion-input [(ngModel)]="country" name="country" type="text"></ion-input>
+              </ion-item>
+              <button ion-button type="submit" block >Save Changes</button>
+            </form>
+          </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>

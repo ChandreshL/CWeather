@@ -9,7 +9,7 @@
   <ion-grid *ngIf="weather">
     <ion-row>
       <ion-col>
-        <h2 class="location">{{weather.city.name}} {{weather.city.country}}</h2>
+        <h2 class="location">{{weather.city.name}}, {{weather.city.country}}</h2>
         <div class="icon"><img src="{{ weather.icon_url }}" /></div>
         <h3 class="desc">{{ weather.list[0].weather[0].description }}</h3>
         <h1 class="temp">{{ weather.list[0].main.temp }}&deg;</h1>
