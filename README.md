@@ -4,8 +4,8 @@ A weather app using openweather api and built with ionic 3 framework.
 
 ### Features! (Prototype)
 
-  - View current weather of a city
   - Set a city in a settings page, the settings will be saved.
+  - View current weather of a city
 
 ### Screenshot
 
