@@ -1,5 +1,7 @@
 # CWeather
 
+[![Build Status](https://travis-ci.org/ChandreshL/CWeather.svg?branch=master)](https://travis-ci.org/ChandreshL/CWeather)
+
 A weather app using openweather api and built with ionic 3 framework.
 
 ### Features! (Prototype)
