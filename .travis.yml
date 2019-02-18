@@ -11,7 +11,7 @@ before_install:
   - npm install -g ionic cordova
 
 script:
-  - ionic build --prod
+  - npm run build
 
 notifications:
   email: false
